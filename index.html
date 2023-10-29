@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bhashini UI</title>
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- custom css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container inner">
+            <div>
+                <div class="header">
+                    <div class="container inner">
+                        <h1>Bhashini Language Translation UI</h1>
+                        <h5>by Sourashis Sarkar</h5>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form class="inner">
+                    <div class="form-row">
+                        <div class="inner form-group col-md-6">
+                            <label for="sourceLanguage">Source Language</label>
+                            <select id="sourceLanguage" class="form-control">
+                                <option selected>Choose a Language...</option>
+                                <option>Hindi</option>
+                                <option>Bengali</option>
+                                <option>Gujrati</option>
+                                <option>Kannada</option>
+                                <option>Malayalam</option>
+                                <option>Marathi</option>
+                                <option>Odia</option>
+                                <option>Punjabi</option>
+                                <option>Tamil</option>
+                                <option>Telugu</option>
+                                <option>Assamese</option>
+                            </select>
+                        </div>
+                        <div class="inner form-group col-md-6">
+                            <label for="targetLanguage">Target Language</label>
+                            <select id="targetLanguage" class="form-control custom-select">
+                                <option selected>Choose a Language...</option>
+                                <option>Hindi</option>
+                                <option>Bengali</option>
+                                <option>Gujrati</option>
+                                <option>Kannada</option>
+                                <option>Malayalam</option>
+                                <option>Marathi</option>
+                                <option>Odia</option>
+                                <option>Punjabi</option>
+                                <option>Tamil</option>
+                                <option>Telugu</option>
+                                <option>Assamese</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inner form-group">
+                        <label for="contentTextArea">Content</label>
+                        <textarea class="form-control" id="contentTextArea" rows="12" placeholder="write here..."></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-lg btn-primary">Translate</button>
+                    </div>
+
+                    <div class="inner form-group">
+                        <label for="resultTextArea">Output</label>
+                        <textarea class="form-control" id="resultTextArea" rows="12" placeholder="translated text here..." readonly></textarea>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        <!-- custom js -->
+        <script src="index.js"></script>
+    </body>
+</html>

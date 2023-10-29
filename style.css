@@ -1,0 +1,30 @@
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+body {
+  color: #fff;
+  background-color: #22272e;
+  /* text-align: center; */
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+
+.inner {
+  padding: 30px;
+}
+
+.content{
+  margin: 50px 0 100px 0;
+}
+
+.form-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
